@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#list div {
+  background-color: lightcyan;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: lightgray;
+}
+
+#searchbar {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+#content {
+  height: 100%;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#middle {
+
+  height: 100%;
+  background-color: lightgoldenrodyellow;
+}
+
+@media only screen and (min-width: 750px) {
+  #middle {
+    margin: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #middle {
+    margin: 0 200px;
+  }
+}
+
+#level {
+  border-style: solid;
+}
+
+#level div {
+  margin: 10px;
+}
+
+
+footer {
+  height: auto;
+}
+
+#results {
+  text-align: center;
+}
